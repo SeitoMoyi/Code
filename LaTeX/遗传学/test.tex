@@ -1,0 +1,158 @@
+\documentclass[UTF8]{article}
+\usepackage{ctex,geometry,graphicx,float,makecell,rotating,multirow,diagbox}
+\geometry{a4paper,scale=0.8}
+\title{实验二\ 基因分离定律和自由组合定律的验证}
+\author{201850050\ 徐培宾}
+\date{2022年4月20日}
+
+\begin{document}
+    \maketitle
+    \section{实验目的}
+    通过实验验证分离规律和自由组合规律，掌握果蝇杂交的实验技术，在实验中熟练运用生物统计的方法对实验数据进行分析。
+    \section{实验原理}
+    \subsection{基因分离定律}
+    一对等位基因在杂合状态中保持相对的独立性，在配子形成时，按原样分离到不同的配子中去，理论上配子分离比是1：1，1F2代基因型分离比是1：2：1，若显性完全，F2代表型分离比是3：1。
+    
+    控制体色性状的突变基因位于2号常染色体，正常体色对黑体完全显性，用正常体色果蝇与黑体果蝇交配，得到F1代都是正常体色，F1代雌雄个体之间相互交配，F2代产生性状分离，出现两种表现型。
+    \subsection{基因自由组合定律}
+    不同相对性状的等位基因在配子形成过程中，等位基因间的分离和组合是互不十扰，各白独立分配到配子中去，它们所决定的两对相对性状在2代是白由组合的，在杂种第二代表型分离比就呈9：3：3：1。
+
+    控制体色性状的突变基因位于2号常染色体，正常体色对黑体完全显性，控制眼色性状的突变基因位于性染色体。红眼对白眼完全显性，用黑体红眼果蝇（雌）与正常体色白眼果蝇（雄）交配，得到F1代都是正常体色，F1代雌雄个体之间相互交配，F2代产生性状分离，出现四种表现型。
+    \section{实验材料}
+    \begin{itemize}
+        \item 用具：显微镜，麻醉瓶，培养瓶，滤纸，毛笔，标签，恒温培养箱
+        \item 材料：野生型果蝇原种、双隐（黑体、残翅）突变型果蝇原种
+        \item 药品：乙醚，乙醇，培养基
+    \end{itemize}
+    \section{实验操作}
+    \subsection{设计杂交组合}
+    亲本：正交（野生雌X双隐雄），反交（双隐雌X野生雄）
+
+    正交产生的F1代继续杂交，产生F2代。
+    \subsection{杂交接种}
+    \begin{enumerate}
+      \item 清除成蝇（生长好、接近羽化蛹多者）
+      \item 清除成蝇后每间隔10小时重复收集处女蝇。
+      \item 杂交接种（次日就要检查，如有死亡及时补救）。杂交瓶上注明：杂交组合、实验日期、实验者姓名。
+      \item 部分蛹变黑，F1即将孵出前，移出亲本蝇。亲本蝇冻存（为防止失败，可留存活蝇适当时间），配制新培养基，用于F1同胞交配。
+      \item F1代果蝇的观察和交配。F1代果蝇孵出7-9d观察统计F1，并选5对再杂交于一个或多个新瓶。
+      \item F1杂交一周后，移出F1代果蝇。
+      \item 第一只F2代果蝇出现后10天内，观察、统计F2代的结果，进行分析。
+    \end{enumerate}
+    \section{实验结果与分析}
+    \subsection{杂交结果}
+    \begin{table}[H]
+      \begin{center}
+        \caption{反交（双隐雌X野生雄）}
+        \begin{tabular}{|l|c|c|}
+          \hline
+            & \textbf{雄} & \textbf{雌}\\
+          \hline
+          灰体长翅 & 17 & 9\\
+          灰体残翅 & 8 & 6\\
+          黑体长翅 & 7 & 3\\
+          黑体残翅 & 0 & 3\\
+          \hline
+          $\chi^2$检验 & \multicolumn{2}{|c|}{2.178}\\
+          \hline
+        \end{tabular}
+      \end{center}
+    \end{table}
+    \begin{table}[H]
+      \begin{center}
+        \caption{正交（野生雌X双隐雄）}
+        \begin{tabular}{|l|c|c|}
+          \hline
+            & \textbf{雄} & \textbf{雌}\\
+          \hline
+          灰体长翅 & 30 & 26\\
+          灰体残翅 & 3 & 5\\
+          黑体长翅 & 4 & 8\\
+          黑体残翅 & 1 & 5\\
+          \hline
+          $\chi^2$检验 & \multicolumn{2}{|c|}{6.542}\\
+          \hline
+        \end{tabular}
+      \end{center}
+    \end{table}
+    从表中可以看出，数据虽然呈现出比较明显的大小差异，但是不能体现出9:3:3:1的分离比，可能是由于果蝇数量少，存在误差。
+
+    通过$\chi^2$检验可以发现，正交数据差异较为明显。
+
+    此外，不同性状的果蝇性别差异较大，可能原因有两个，一是总量过小，存在一定的误差，二是收集在F3产生时停止，可能有一部分F2未计入数据，导致F2的统计数据不正确。
+    \begin{table}[H]
+      \begin{center}
+        \caption{反交（双隐雌X野生雄）}
+        \begin{tabular}{|l|c|c|}
+          \hline
+            & \textbf{雄} & \textbf{雌}\\
+          \hline
+          灰体 & 25 & 15\\
+          黑体 & 7 & 6\\
+          \hline
+          $\chi^2$检验 & \multicolumn{2}{|c|}{6.289$\times 10^{-3}$}\\
+          \hline
+          长翅 & 24 & 12\\
+          残翅 & 8 & 9\\
+          \hline
+          $\chi^2$检验 & \multicolumn{2}{|c|}{114533}\\
+          \hline
+        \end{tabular}
+      \end{center}
+    \end{table}
+    \begin{table}[H]
+      \begin{center}
+        \caption{正交（野生雌X双隐雄）}
+        \begin{tabular}{|l|c|c|}
+          \hline
+            & \textbf{雄} & \textbf{雌}\\
+          \hline
+          灰体 & 33 & 31\\
+          黑体 & 5 & 13\\
+          \hline
+          $\chi^2$检验 & \multicolumn{2}{|c|}{0.406}\\
+          \hline
+          长翅 & 34 & 34\\
+          残翅 & 4 & 10\\
+          \hline
+          $\chi^2$检验 & \multicolumn{2}{|c|}{4111}\\
+          \hline
+        \end{tabular}
+      \end{center}
+    \end{table}
+    从不同性状的统计来看，显性性状和隐性性状之间均可以看出近似3:1的特点，通过$\chi^2$检验可以发现，灰体和黑体的分离比比长翅和残翅的分离比更明显。
+    \section{总结与讨论}
+    \begin{enumerate}
+        \item {
+          \textbf{实验中的注意事项：}
+          \begin{itemize}
+            \item 果蝇要麻醉要适度，用毛笔等温和的工具挑取果蝇，以免对果蝇造成伤害；
+            \item 果蝇麻醉后应及时观察，以免果蝇苏醒后飞走；
+            \item 培养基干湿度适中，防止果蝇粘在培养基上，麻醉后的果蝇应轻轻倒回培养瓶，防止沾上培养基；
+            \item 观察性状时要仔细，特别是黑体和灰体的区分要明确；
+            \item 及时收集处女蝇，避免处女蝇在杂交实验前已交配；
+            \item 分工合作，高效地进行实验和数据统计。
+          \end{itemize}
+        }
+        \item {
+          \textbf{为什么长翅-残翅的分离比不明显？}
+
+          可能原因一是长翅果蝇在收集时飞走了两只，对实验数据产生了一定影响。
+
+          二是因为残翅果蝇不能飞行，比较脆弱，可能有部分个体压在培养基中死亡，没有计入数据中。
+
+          三是收集在F3产生时停止，可能有一部分F2未计入数据，导致F2的统计数据不正确。
+        }
+        \item {
+          \textbf{果蝇杂交实验的改良？}
+          \begin{itemize}
+            \item 有条件的情况下，选用更多的果蝇进行饲养，避免因为基数少，造成明显的实验误差。
+            \item 选取更好的果蝇收集方式，如可以用离心管收集处女赢得用，方便保存并且避免频繁地进入实验室收集\textsuperscript{\cite{ref1}}。
+            \item 长时间收集F2，在确保F2收集的雌性全是处女蝇的前提下，收集并处死每次产生的F2，防止F3产生，延长收集时间直至F2手机完全。
+          \end{itemize}
+        }
+    \end{enumerate}
+    \begin{thebibliography}{99}  
+        \bibitem{ref1}张远莉,庞延军.果蝇杂交实验中处女蝇收集方法的改进[J].生物学教学,2018,43(12):56-57.
+    \end{thebibliography}
+\end{document}
