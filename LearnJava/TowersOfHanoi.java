@@ -2,20 +2,12 @@ import java.util.Scanner;
 
 public class TowersOfHanoi {
     public static void main(String[] args) {
-        System.out.println("Enter number of disks");
-        Scanner cin = new Scanner(System.in);
-        int n = cin.nextInt();
-        cin.close();
-        System.out.println("The move are:");
-        moveDISKs(n, 'A','B','C');
-    }
-    public static void moveDISKs(int n, char fromTower, char toTower, char auxTower) {
-        if (n == 1)
-            System.out.println( "move disk " + n + " from " + fromTower + " to " + toTower);
-        else {
-            moveDISKs(n-1, fromTower, auxTower, toTower);
-            System.out.println( "move disk " + n + " from " + fromTower + " to " + toTower);
-            moveDISKs(n-1, auxTower, toTower, fromTower);
-        }
+        int sum = 0;
+        int n = 1000;
+        for(int i = 0; i < n; i++ )
+            for(int j = 0; j <i*i; j++ )
+                for(int k = 0; k <j; k++ )
+                    sum++;
+        System.out.println(sum);
     }
 }
