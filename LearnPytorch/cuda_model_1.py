@@ -59,7 +59,7 @@ total_train_step = 0
 total_test_step = 0
 
 # 训练的轮数
-epoch = 10
+epoch = 1
 
 # 添加tensorboard
 writer = SummaryWriter("logs")
@@ -82,7 +82,7 @@ for i in range(epoch):
         optimizer.step()
 
         total_train_step += 1
-        if total_train_step%100 == 0:
+        if total_train_step % 100 == 0:
             print("训练次数：{}，loss：{}".format(total_train_step,loss.item()))
             writer.add_scalar("train_loss",loss.item(),total_train_step)
 

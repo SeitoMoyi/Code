@@ -21,5 +21,5 @@ vgg16.load_state_dict(torch.load("vgg16_method2.pth"))
 #         x = self.conv(x)
 #         return x
 
-model= torch.load("nm_method.pth")
+model = torch.load("nm_method.pth")
 print(model)
